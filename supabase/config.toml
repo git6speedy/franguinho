@@ -1,0 +1,25 @@
+project_id = "bxeerwspmfmpoqigvtvn"
+
+[functions.send-whatsapp]
+verify_jwt = true
+
+[functions.receive-whatsapp]
+verify_jwt = false
+
+[functions.admin-create-user]
+verify_jwt = true
+
+[functions.admin-delete-user]
+verify_jwt = true
+
+[functions.admin-delete-store]
+verify_jwt = true
+
+[functions.setup-system]
+verify_jwt = false
+
+[functions.execute-campaign]
+verify_jwt = true
+
+[functions.request-ai-insight]
+verify_jwt = true
